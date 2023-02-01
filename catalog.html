@@ -56,7 +56,7 @@
             <legend>Инфраструктура:</legend>
             <label><input type="checkbox" name="priority" checked value="swimming-pool">Бассейн</label>
             <label><input type="checkbox" name="priority" checked value="parking">Парковка</label>
-            <label><input type="checkbox" name="priority" checked value="Wi-Fi">Вай-фай</label>
+            <label><input type="checkbox" name="priority" value="Wi-Fi">Вай-фай</label>
           </fieldset>
           <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Тип жилья:</legend>
@@ -79,7 +79,7 @@
             </ul>
           </fieldset>
           <fieldset>
-            <legend>Стоимость, ₽: <span>₽</span></legend>
+            <legend>Стоимость,<span>₽</span>:</legend>
             <label>от<input type="number" name="min-price" value="0"></label>
             <label>до<input type="number" name="max-price" value="9000"></label>
           </fieldset>
@@ -183,9 +183,8 @@
         <h2 class="page-footer-title">Подпишитесь на расслыку</h2>
         <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-          <label>Подписаться</label>
-          <input class="field" placeholder="email@example.com" type="email" name="newsletter-email"
-            id="newsletter-email" required>
+          <label for="newsletter-email"></label>
+          <input class="field" id="newsletter-email" name="newsletter-email" type="email" placeholder="Ваш e-mail">
           <button class="button" type="submit">Подписаться</button>
         </form>
       </section>
@@ -208,10 +207,15 @@
           </a>
         </li>
       </ul>
+      <section class="contacts">
+        <h2>Контакты</h2>
       <a class="contacts-phone" href="tel:+78128121212">+7 812 812-12-12</a>
-      <a class="link-htmlacademy" href="htttps://htmlacademy.ru/">.HTML Academy<span class="visually-hidden">Сделано в
-          HTML Academy</span></a>
-      <img class="logo-html" src="#" alt="Логотип разработчика сайта">
+      </section>
+      <section class="about-text">
+      <h2>Сайт разработчика</h2>
+      <a class="link-htmlacademy" href="https://htmlacademy.ru/"><span class="visually-hidden">.html academy</span>
+      <img class="logo-htmlacademy" src="#" alt="Логотип html academy"></a>
+      </section>
     </footer>
   </body>
 
