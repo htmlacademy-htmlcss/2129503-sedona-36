@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="ru">
-
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
-
   <body>
     <header class="page-header">
       <nav class="navigation">
         <a href="index.html" aria-current="page">
-          <img class="logo" src="#" alt="Логотип сайта городка Седона">
+        <img class="logo" src="images/logo/logo.svg" width="140" height="70" alt="Логотип сайта городка Седона.">
         </a>
         <ul class="nav-list">
           <li class="nav-item">
@@ -42,8 +41,8 @@
     </header>
     <main class="main-index">
       <section class="hero">
-        <h1 class="visually-hiden">Welcome to Sedona</h1>
-        <img class="hero-img" alt="Добро пожаловать в город Седона" src="#">
+        <h1 class="visually-hidden">Welcome to Sedona</h1>
+        <img class="hero-img" src="images/index/welcome.svg" width="188" height="46" alt="Welcome to the gorgeous Sedona, because the grand canyon sucks!">
       </section>
       <section class="advantages-City-Sedona">
         <h2>Седона - небольшой городок в Аризоне, заслуживающий большего!</h2>
@@ -52,6 +51,7 @@
           <li class="advantages-item-City-Sedona">
             <h3 class="advantages-title-City-Sedona">Настоящий городок</h3>
             <p class="advantages-description-City-Sedona">Седона - не атракцион для туритстов, там течёт своя жизнь</p>
+            <img src="images/index/photo-1.jpg" width="800" height="385" alt="Вид на город Седона.">
           </li>
           <li class="advantages-item-City-Sedona">
             <h3 class="advantages-title-City-Sedona">Небольшая площадь</h3>
@@ -68,6 +68,7 @@
           <li class="advantages-item-City-Sedona">
             <h3 class="advantages-title-City-Sedona">Там есть мост дьявола</h3>
             <p class="advantages-description-City-Sedona">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+            <img src="images/index/photo-2.jpg" width="800" height="385" alt="Мост дьявола.">
           </li>
         </ul>
       </section>
@@ -76,13 +77,13 @@
         <p>Опытный персонал и качественное обслуживание!</p>
         <ul class="advantages-list-service">
           <li class="advantages-item-service">
-            <h5 class="advantages-title-service">Жильё</h5>
+            <h3 class="advantages-title-service">Жильё</h3>
             <P class="advantages-description-service">Рекомендуем пожить в настоящем мотеле, всё как в кино!</P>
           <li class="advantages-item-service">
-            <h5 class="advantages-title-service">Еда</h5>
+            <h3 class="advantages-title-service">Еда</h3>
             <P class="advantages-description-service">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</P>
           <li class="advantages-item-service">
-            <h5 class="advantages-title-service">Сувениры</h5>
+            <h3 class="advantages-title-service">Сувениры</h3>
             <P class="advantages-description-service">Не только китайского, но и настоящего местного производства!</P>
           </li>
         </ul>
@@ -97,33 +98,39 @@
         <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
           <label>Подписаться</label>
-          <input class="field" placeholder="email@example.com" type="email" name="newsletter-email"
+          <input class="field" placeholder="email" type="email" name="newsletter-email"
             id="newsletter-email" required>
           <button class="button" type="submit">Подписаться</button>
         </form>
       </section>
     </main>
     <footer class="page-footer">
-        <ul class="footer-social-list">
-          <li class="footer-social-item">
-            <a class="button" href="https://vk.com/htmlacademy">
-              <span class="visually-hidden">ВКонтакте</span>
-            </a>
-          </li>
-          <li class="footer-social-item">
-            <a class="button" href="https://t.me/htmlacademy">
-              <span class="visually-hidden">Телеграм</span>
-            </a>
-          </li>
-          <li class="footer-social-item">
-            <a class="button" href="https://www.youtube.com/user/htmlacademyru">
-              <span class="visually-hidden">Ютуб</span>
-            </a>
-          </li>
-        </ul>
-        <a class="contacts-phone" href="tel:+78128121212">+7 812 812-12-12</a>
-        <a class="link-htmlacademy" href="htttps://htmlacademy.ru/">.HTML Academy<span class="visually-hidden">Сделано в HTML Academy</span></a>
-        <img class="logo-html" src="#" alt="Логотип разработчика сайта">
+      <ul class="footer-social-list">
+        <li class="footer-social-item">
+          <a class="button" href="https://vk.com/htmlacademy">
+            <span class="visually-hidden">ВКонтакте</span>
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a class="button" href="https://t.me/htmlacademy">
+            <span class="visually-hidden">Телеграм</span>
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a class="button" href="https://www.youtube.com/user/htmlacademyru">
+            <span class="visually-hidden">Ютуб</span>
+          </a>
+        </li>
+      </ul>
+      <section class="contacts">
+        <h2 class="visually-hidden"><span>Контакты</span></h2>
+      <a class="contacts-phone" href="tel:+78128121212">+7 812 812-12-12</a>
+      </section>
+      <section class="about-text">
+      <h2 class="visually-hidden"><span>Сайт разработчика</span></h2>
+      <a class="link-htmlacademy" href="https://htmlacademy.ru/">
+      <img class="logo-htmlacademy" src="images/logo/html_academy.svg" alt="Логотип html academy."></a>
+      </section>
     </footer>
   </body>
 </html>
