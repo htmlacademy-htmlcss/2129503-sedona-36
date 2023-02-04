@@ -10,7 +10,7 @@
     <header class="page-header">
       <nav class="navigation">
         <a href="index.html" aria-current="page">
-          <img class="logo" src="#" alt="Логотип сайта городка Седона">
+          <img class="logo" src="images/catalog/logo.svg" width="140" height="70" alt="Логотип сайта городка Седона">
         </a>
         <ul class="nav-list">
           <li class="nav-item">
@@ -42,6 +42,7 @@
     </header>
     <main class="main-inner">
       <section class="filters-search">
+        <img src="images/catalog/filter.jpg" width="1200" height="412" alt="размытый фон гор для фильтров">
         <h1 class="inner-title">Гостиницы Седоны</h1>
         <ul class="breadcrumbs">
           <li class="breadcrumbs-item">
@@ -79,7 +80,7 @@
             </ul>
           </fieldset>
           <fieldset>
-            <legend>Стоимость,:<span>₽</span></legend>
+            <legend>Стоимость,<span>₽</span>:</legend>
             <label>от<input type="number" name="min-price" value="0"></label>
             <label>до<input type="number" name="max-price" value="9000"></label>
           </fieldset>
@@ -106,7 +107,7 @@
         <ul class="hotel-list">
           <li class="hotel-card">
             <a class="link-hotel-card" href="#" tabindex="-1">
-              <img class="image-card-hotel" src="#" alt=""></a>
+              <img class="image-card-hotel" src="images/catalog/hotel-1.jpg" width="300" height="212" alt="Вид из пещеры на звездное небо"></a>
             <a tabindex="-1">
               <h3 class="title-card-hotel">Amara Resort&Spa</h3>
             </a>
@@ -114,7 +115,7 @@
             <p class="price-card-hotel">от 4000 Р</p>
             <a class="hotel-card-button" href="#">Подробнее</a>
             <button class="favorites button" type="button">В избранное</button>
-            <p class="stars star-4"><span class="visually-hiden">4 звезды</span></p>
+            <p class="stars star-4"><span class="visually-hidden">4 звезды</span></p>
             <p class="hotel-rating">Рейтинг: 8,5</p>
           </li>
           <li class="hotel-card">
@@ -183,9 +184,8 @@
         <h2 class="page-footer-title">Подпишитесь на расслыку</h2>
         <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-          <label>Подписаться</label>
-          <input class="field" placeholder="email@example.com" type="email" name="newsletter-email"
-            id="newsletter-email" required>
+          <label for="newsletter-email"></label>
+          <input class="field" id="newsletter-email" name="newsletter-email" type="email" placeholder="Ваш e-mail">
           <button class="button" type="submit">Подписаться</button>
         </form>
       </section>
@@ -208,10 +208,15 @@
           </a>
         </li>
       </ul>
+      <section class="contacts">
+        <h2 class="visually-hidden"><span>Контакты</span></h2>
       <a class="contacts-phone" href="tel:+78128121212">+7 812 812-12-12</a>
-      <a class="link-htmlacademy" href="htttps://htmlacademy.ru/">.HTML Academy<span class="visually-hidden">Сделано в
-          HTML Academy</span></a>
-      <img class="logo-html" src="#" alt="Логотип разработчика сайта">
+      </section>
+      <section class="about-text">
+      <h2 class="visually-hidden"><span>Сайт разработчика</span></h2>
+      <a class="link-htmlacademy" href="https://htmlacademy.ru/"><span class="visually-hidden">.html academy</span>
+      <img class="logo-htmlacademy" src="#" alt="Логотип html academy"></a>
+      </section>
     </footer>
   </body>
 
