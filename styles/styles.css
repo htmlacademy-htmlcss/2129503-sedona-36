@@ -34,8 +34,8 @@
 
 body {
   font-family: "PT Sans", sans-serif;
-  font-size: 22px;
-  line-height: 26px;
+  font-size: 18px;
+  line-height: 21px;
   color: #000000;;
   background-color: #FFFFFF;
 }
@@ -43,25 +43,64 @@ body {
 /* Pages */
 
 .page-header {
-  color: #000000;;
+  color: #000000;
   background-color: #FFFFFF;
 }
 
-.nav-list {
+.nav-link {
   font-family: "PT Sans", sans-serif;
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
   text-align: center;
-  color: #000000;;
+  color: #000000;
   background-color: #FFFFFF;
   text-transform: capitalize;
 }
 
-.main-index {
+.hero {
   color: #000000;;
   background-color: #FFFFFF;
   background-image: url("/images/index/index-background.jpg");
   background-size: 1200px 485px;
   background-repeat: no-repeat;
+}
+
+.main-index {
+  color: #000000;;
+  background-color: #FFFFFF;
+}
+
+.advantage-title {
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.advantages-subtitle {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
+/* List */
+.advantages-list-City-Sedona {
+  text-align: center;
+}
+
+/* Title */
+.advantages-title-City-Sedona {
+  font-family: "PT Sans", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.advantages-description-City-Sedona {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
 }
