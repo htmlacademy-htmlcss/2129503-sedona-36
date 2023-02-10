@@ -40,7 +40,7 @@ body {
   background-color: #FFFFFF;
 }
 
-.button {
+.button-small {
 font-family: inherit;
 font-size: 16px;
 line-height: 20px;
@@ -52,7 +52,7 @@ text-decoration: none;
 text-transform: uppercase;
 }
 
-.button-second {
+.button-search {
   font-family: inherit;
   font-size: 20px;
   line-height: 36px;
@@ -64,7 +64,7 @@ text-transform: uppercase;
   text-transform: uppercase;
 }
 
-.button-third {
+.button-subscribe {
   font-family: inherit;
   font-size: 20px;
   line-height: 36px;
@@ -72,6 +72,41 @@ text-transform: uppercase;
   text-align: center;
   color: #ffffff;
   background-color: #82B3D3;
+}
+
+.button-apply {
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+  }
+
+  .button-reset {
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  }
+
+/* Light */
+.button-light {
+  color: #242424;
+  background-color: #ffffff;
+}
+
+.favorites-button {
+font-size: 16px;
+line-height: 20px;
+font-weight: 700;
+color: #ffffff;
+background-color: #82B3D3;
+}
+
+.favorites-button-green {
+font-size: 16px;
+line-height: 20px;
+font-weight: 700;
+color: #ffffff;
+background-color: #7DB54F;
 }
 
 /* Pages */
@@ -117,6 +152,7 @@ text-transform: uppercase;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
+  color: #333333;
 }
 
 /* List */
@@ -137,6 +173,7 @@ text-transform: uppercase;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
+  color: #333333;
 }
 
 .advantages-title-service {
@@ -156,6 +193,7 @@ font-weight: 400;
 font-size: 18px;
 line-height: 21px;
 text-align: center;
+color: #333333;
 }
 
 .question-title {
@@ -175,6 +213,7 @@ font-weight: 400;
 font-size: 22px;
 line-height: 26px;
 text-align: center;
+color: #333333;
 }
 
 .newsletter {
@@ -220,7 +259,7 @@ text-align: center;
 color: #000000;
 }
 
-.main-inner {
+.filters-search {
 color: #000000;
 background-color: #FFFFFF;
 background-image: url("/images/catalog/filter.jpg");
@@ -234,15 +273,71 @@ line-height: 78px;
 color: #FFFFFF;
 }
 
-.breadcrumbs-link {
-width: 16px;
-height: 21px;
-color: #FFFFFF;
+/* Breadcrumbs */
+.breadcrumbs {
+  color: #FFFFFF;
 }
 
-.infrastructures-header-filter {
+/* Link */
+.breadcrumbs-link {
+  width: 16px;
+ height: 21px;
+  color: inherit;
+}
+
+/* Title */
+.catalog-filter-title {
 font-size: 20px;
 line-height: 24px;
 font-weight: 700;
 color: #FFFFFF;
+}
+
+.catalog-filter-list {
+font-size: 18px;
+line-height: 23px;
+color: #FFFFFF;
+}
+
+.sorting-container {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.title-card-hotel {
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.type-card-hotel {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.price-card-hotel {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.hotel-card-button {
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+background-color: #756157
+}
+
+.hotel-rating {
+font-size: 16px;
+line-height: 20px;
+font-weight: 400;
+color: #333333;
+background-color: #F2F2F2;
 }
