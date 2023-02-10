@@ -1,0 +1,343 @@
+/* Файл css/style.css */
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/pt-sans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/pt-sans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 400;
+  src: url("fonts/pt-sans-italic.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 700;
+  src: url("fonts/pt-sans-italic.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;;
+  background-color: #FFFFFF;
+}
+
+.button-small {
+font-family: inherit;
+font-size: 16px;
+line-height: 20px;
+font-weight: 700;
+text-align: center;
+color: #ffffff;
+background-color: #756157;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+.button-search {
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #756157;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button-subscribe {
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #82B3D3;
+}
+
+.button-apply {
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+  }
+
+  .button-reset {
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  }
+
+/* Light */
+.button-light {
+  color: #242424;
+  background-color: #ffffff;
+}
+
+.favorites-button {
+font-size: 16px;
+line-height: 20px;
+font-weight: 700;
+color: #ffffff;
+background-color: #82B3D3;
+}
+
+.favorites-button-green {
+font-size: 16px;
+line-height: 20px;
+font-weight: 700;
+color: #ffffff;
+background-color: #7DB54F;
+}
+
+/* Pages */
+
+.page-header {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.nav-link {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  background-color: #FFFFFF;
+  text-transform: capitalize;
+}
+
+.hero {
+  color: #000000;;
+  background-color: #FFFFFF;
+  background-image: url("/images/index/index-background.jpg");
+  background-size: 1200px 485px;
+  background-repeat: no-repeat;
+}
+
+.main-index {
+  color: #000000;;
+  background-color: #FFFFFF;
+}
+
+.advantage-title {
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.advantages-subtitle {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
+}
+
+/* List */
+.advantages-list-City-Sedona {
+  text-align: center;
+}
+
+/* Title */
+.advantages-title-City-Sedona {
+  font-family: "PT Sans", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.advantages-description-City-Sedona {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.advantages-title-service {
+ font-family: "PT Sans", sans-serif;
+ font-style: normal;
+ font-weight: 700;
+ font-size: 24px;
+ line-height: 28px;
+ text-align: center;
+ text-transform: uppercase;
+}
+
+.advantages-description-service {
+font-family: "PT Sans", sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #333333;
+}
+
+.question-title {
+font-family: "PT Sans", sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-align: center;
+text-transform: uppercase;
+}
+
+.question-subtitle {
+font-family: "PT Sans", sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+text-align: center;
+color: #333333;
+}
+
+.newsletter {
+background-image: url("/images/index/subscribe.jpg");
+background-size: 1200, 414,86;
+background-repeat: no-repeat;
+}
+
+.page-footer-title {
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.page-footer-subtitle {
+font-family: "PT Sans", sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 26px;
+color: #FFFFFF;
+}
+
+.newsletter-form {
+font-family: "PT Sans", sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 24px;
+color: #000000;
+}
+
+/* Phone */
+.contacts-phone {
+font-size: 40px;
+line-height: 40px;
+text-transform: uppercase;
+text-align: center;
+color: #000000;
+}
+
+.filters-search {
+color: #000000;
+background-color: #FFFFFF;
+background-image: url("/images/catalog/filter.jpg");
+background-size: 1200px 412px;
+background-repeat: no-repeat;
+}
+
+.inner-title {
+font-size: 60px;
+line-height: 78px;
+color: #FFFFFF;
+}
+
+/* Breadcrumbs */
+.breadcrumbs {
+  color: #FFFFFF;
+}
+
+/* Link */
+.breadcrumbs-link {
+  width: 16px;
+ height: 21px;
+  color: inherit;
+}
+
+/* Title */
+.catalog-filter-title {
+font-size: 20px;
+line-height: 24px;
+font-weight: 700;
+color: #FFFFFF;
+}
+
+.catalog-filter-list {
+font-size: 18px;
+line-height: 23px;
+color: #FFFFFF;
+}
+
+.sorting-container {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.title-card-hotel {
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.type-card-hotel {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.price-card-hotel {
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.hotel-card-button {
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+background-color: #756157
+}
+
+.hotel-rating {
+font-size: 16px;
+line-height: 20px;
+font-weight: 400;
+color: #333333;
+background-color: #F2F2F2;
+}
