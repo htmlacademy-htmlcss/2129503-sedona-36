@@ -28,13 +28,13 @@
               <span class="visually-hidden">Поиск</span>
             </a>
           </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">
+          <li class="nav-item">
+            <a class="nav-link" href="#">
               <span class="visually-hidden">Отелей добавленных в избранное</span><span>12</span>
             </a>
           </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">Хочу сюда!</a>
+          <li class="nav-item">
+            <a class="button" href="#">Хочу сюда!</a>
           </li>
         </ul>
       </nav>
@@ -51,11 +51,25 @@
           </li>
         </ul>
         <form action="https://echo.htmlacademy.ru/" method="get">
-          <fieldset>
-            <legend>Инфраструктура:</legend>
-            <label><input type="checkbox" name="priority" checked value="swimming-pool">Бассейн</label>
-            <label><input type="checkbox" name="priority" checked value="parking">Парковка</label>
-            <label><input type="checkbox" name="priority" value="Wi-Fi">Вай-фай</label>
+          <fieldset class="catalog-filter-group">
+            <legend class="catalog-filter-title">Инфраструктура:</legend>
+            <ul class="catalog-filter-list">
+              <li class="catalog-filter-item">
+                <label class="control">
+                  <input class="control-input" type="checkbox" name="priority" value="hotel" checked value="swimming-pool">Бассейн
+                </label>
+              </li>
+              <li class="catalog-filter-item">
+                <label class="control">
+                  <input class="control-input" type="checkbox" name="priority" checked value="parking">Парковка
+                </label>
+              </li>
+              <li class="catalog-filter-item">
+                <label class="control">
+                  <input class="control-input" type="checkbox" name="priority" value="Wi-Fi">Вай-фай
+                </label>
+              </li>
+            </ul>
           </fieldset>
           <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Тип жилья:</legend>
@@ -179,29 +193,30 @@
         </ul>
       </section>
       <section class="newsletter">
-        <h2 class="page-footer-title">Подпишитесь на расслыку</h2>
-        <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+        <h2 class="page-footer-title">Подпишитесь на рассылку</h2>
+        <p class="page-footer-subtitle">Только полезная информация и никакого спама, честное бойскаутское!</p>
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-          <label for="newsletter-email"></label>
-          <input class="field" id="newsletter-email" name="newsletter-email" type="email" placeholder="Ваш e-mail">
-          <button class="button" type="submit">Подписаться</button>
+          <label>Подписаться</label>
+          <input class="field" placeholder="email" type="email" name="newsletter-email"
+            id="newsletter-email" required>
+          <button class="button-third" type="submit">Подписаться</button>
         </form>
       </section>
     </main>
     <footer class="page-footer">
       <ul class="footer-social-list">
         <li class="footer-social-item">
-          <a class="button" href="https://vk.com/htmlacademy">
+          <a class="link-vkontakte" href="https://vk.com/htmlacademy">
             <span class="visually-hidden">ВКонтакте</span>
           </a>
         </li>
         <li class="footer-social-item">
-          <a class="button" href="https://t.me/htmlacademy">
+          <a class="link-telegram" href="https://t.me/htmlacademy">
             <span class="visually-hidden">Телеграм</span>
           </a>
         </li>
         <li class="footer-social-item">
-          <a class="button" href="https://www.youtube.com/user/htmlacademyru">
+          <a class="link-youtube" href="https://www.youtube.com/user/htmlacademyru">
             <span class="visually-hidden">Ютуб</span>
           </a>
         </li>
@@ -213,7 +228,7 @@
       <section class="about-text">
       <h2 class="visually-hidden"><span>Сайт разработчика</span></h2>
       <a class="link-htmlacademy" href="https://htmlacademy.ru/">
-      <img class="logo-htmlacademy" src="images/logo footer/html_academy.svg" width="115" height="34" alt="Логотип html academy."></a>
+      <img class="logo-htmlacademy" src="images/logo footer/html_academy.svg" alt="Логотип html academy."></a>
       </section>
     </footer>
   </body>

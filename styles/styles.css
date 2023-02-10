@@ -219,3 +219,30 @@ text-transform: uppercase;
 text-align: center;
 color: #000000;
 }
+
+.main-inner {
+color: #000000;
+background-color: #FFFFFF;
+background-image: url("/images/catalog/filter.jpg");
+background-size: 1200px 412px;
+background-repeat: no-repeat;
+}
+
+.inner-title {
+font-size: 60px;
+line-height: 78px;
+color: #FFFFFF;
+}
+
+.breadcrumbs-link {
+width: 16px;
+height: 21px;
+color: #FFFFFF;
+}
+
+.infrastructures-header-filter {
+font-size: 20px;
+line-height: 24px;
+font-weight: 700;
+color: #FFFFFF;
+}
