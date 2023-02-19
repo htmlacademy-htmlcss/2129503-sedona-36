@@ -58,6 +58,7 @@ body {
 }
 
 .button-submit {
+  font-family: inherit;
   font-size: 16px;
   line-height: 20px;
   color: #FFFFFF;
@@ -66,6 +67,7 @@ body {
 }
 
 .button-reset {
+  font-family: inherit;
   font-size: 16px;
   line-height: 20px;
   color: #FFFFFF;
@@ -310,6 +312,7 @@ body {
 }
 
 .field {
+  font-family: inherit;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
