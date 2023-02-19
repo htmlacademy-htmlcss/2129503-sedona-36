@@ -82,6 +82,7 @@ body {
 }
 
 .favorites-button {
+  font-family: inherit;
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
@@ -91,6 +92,7 @@ body {
 }
 
 .favorites-button-green {
+  font-family: inherit;
   font-size: 16px;
   line-height: 20px;
   font-weight: 700;
@@ -366,6 +368,7 @@ body {
 }
 
 .control-input-min {
+  font-family: inherit;
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
@@ -373,6 +376,7 @@ body {
 }
 
 .control-input-max {
+  font-family: inherit;
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
@@ -394,6 +398,7 @@ body {
 }
 
 .select-control {
+  font-family: inherit;
   color: #333333;
 }
 
