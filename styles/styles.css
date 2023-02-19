@@ -105,7 +105,6 @@ body {
 }
 
 .nav-link {
-  font-family: "PT Sans", sans-serif;
   font-size: 20px;
   line-height: 24px;
   font-weight: 700;
@@ -128,6 +127,14 @@ body {
   background-color: #FFFFFF;
 }
 
+.main-inner {
+  background-color: #FFFFFF;
+}
+
+.page-footer {
+  background-color: #FFFFFF;
+}
+
 .advantage-title {
   font-size: 30px;
   line-height: 36px;
@@ -144,28 +151,46 @@ body {
 }
 
 /* List */
-.advantages-list-City-Sedona {
+.advantages-list-city-sedona {
   text-align: center;
 }
 
 /* Title */
-.advantages-title-City-Sedona {
-  font-family: "PT Sans", sans-serif;
+.advantages-item-city-sedona {
+  background-color: #82B3D3;
+}
+
+.advantages-title-city-sedona {
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
+  color: #FFFFFF;
 }
 
-.advantages-description-City-Sedona {
-  font-family: "PT Sans", sans-serif;
+.advantages-description-city-sedona {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  color: #333333;
+  color: #FFFFFF;
 }
 
-.advantages-title-service {
-  font-family: "PT Sans", sans-serif;
+.advantages-item-location {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-item-tourist {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-item-road {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.advantages-item-housing {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-title-housing {
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -174,8 +199,47 @@ body {
   text-transform: uppercase;
 }
 
-.advantages-description-service {
-  font-family: "PT Sans", sans-serif;
+.advantages-description-housing {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #333333;
+}
+
+.advantages-title-food {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.advantages-description-food {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #333333;
+}
+
+.advantages-item-souvenir {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-title-souvenir {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.advantages-description-souvenir {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -185,7 +249,6 @@ body {
 }
 
 .question-title {
-  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -196,7 +259,6 @@ body {
 }
 
 .question-subtitle {
-  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -216,7 +278,6 @@ body {
 }
 
 .page-footer-title {
-  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -231,11 +292,9 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   color: #000000;
-  background-color: #FFFFFF;
-}
+  }
 
 .page-footer-subtitle {
-  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -248,11 +307,9 @@ body {
   font-size: 22px;
   line-height: 26px;
   color: #333333;
-  background-color: #FFFFFF;
 }
 
 .field {
-  font-family: "PT Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -268,6 +325,7 @@ body {
   text-transform: uppercase;
   text-align: center;
   color: #000000;
+  text-decoration: none;
 }
 
 .filters-search {
@@ -304,19 +362,24 @@ body {
   color: #FFFFFF;
 }
 
+.control-input-min {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.control-input-max {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
 .catalog-filter-list {
   font-size: 18px;
   line-height: 23px;
   color: #FFFFFF;
-}
-
-.sorting-container {
-  color: #000000;
-  background-color: #ffffff;
-}
-
-.hotel-list {
-  background-color: #ffffff;
 }
 
 .hotel-card-title {
@@ -334,7 +397,6 @@ body {
   font-size: 24px;
   line-height: 28px;
   color: #000000;
-  background-color: #ffffff;
 }
 
 .type-card-hotel {
@@ -369,12 +431,4 @@ body {
   color: #333333;
   background-color: #F2F2F2;
   text-transform: uppercase;
-}
-
-.pagination {
-  background-color: #FFFFFF;
-}
-
-.page-footer {
-  background-color: #FFFFFF;
 }
