@@ -30,6 +30,8 @@ body {
   background-color: #F2F2F2;
 }
 
+/* Button */
+
 .button-small {
   font-family: inherit;
   font-size: 16px;
@@ -122,14 +124,20 @@ body {
   margin: 0 auto;
 }
 
-.nav-list {
-  width: 314px;
-  margin: 0;
+.page-header-logo {
+  width: 1060;
   padding: 0;
+  margin: 0;
+}
+
+.nav-list {
+  width: 314;
+  padding: 0;
+  margin: 0;
 }
 
 .nav-user {
-  max-width: 200px;
+  max-width: 306px;
   margin-left: auto;
 }
 
@@ -164,23 +172,39 @@ body {
   background-color: #FFFFFF;
 }
 
+.page-container {
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.hero-img {
+  width: 1060px;
+  margin: 0 auto;
+}
+
 .page-footer {
   background-color: #FFFFFF;
 }
 
 .advantage-title {
+  width: 620px;
   font-size: 30px;
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
+  margin: 0;
+  padding: 0;
 }
 
 .advantages-subtitle {
+  width: 651px;
   font-weight: 400;
   font-size: 22px;
   line-height: 26px;
   text-align: center;
   color: #333333;
+  margin: 0;
+  padding: 0;
 }
 
 /* List */
@@ -191,6 +215,9 @@ body {
 /* Title */
 .advantages-item-city-sedona {
   background-color: #82B3D3;
+  width: 400px;
+  height: 385px;
+  display: flex;
 }
 
 .advantages-title-city-sedona {
@@ -198,6 +225,10 @@ body {
   line-height: 28px;
   text-transform: uppercase;
   color: #FFFFFF;
+  width: 175px;
+  margin: 0;
+  padding: 103px 85px;
+  display: flex;
 }
 
 .advantages-description-city-sedona {
@@ -205,6 +236,24 @@ body {
   font-size: 18px;
   line-height: 21px;
   color: #FFFFFF;
+  width: 230px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-self: stretch;
+}
+
+
+.advantages-item-location {
+  flex-basis: 100%;
+  display: flex;
+  width: 400px;
+  margin: 0;
+  padding: 80px 85px 80px 85px;
+  background-color: #FFFFFF;
+  list-style: none;
+  position: relative;
+  box-sizing: border-box;
 }
 
 .advantages-item-location {
@@ -212,7 +261,31 @@ body {
 }
 
 .advantages-item-tourist {
+flex-basis: 100%;
+display: flex;
+width: 400px;
+margin: 0;
+padding: 80px 85px 80px 85px;
+background-color: #FFFFFF;
+list-style: none;
+position: relative;
+box-sizing: border-box;
+}
+
+.advantages-item-tourist {
   background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-item-road{
+  flex-basis: 100%;
+  display: flex;
+  width: 400px;
+  margin: 0;
+  padding: 80px 85px 80px 85px;
+  background-color: #FFFFFF;
+  list-style: none;
+  position: relative;
+  box-sizing: border-box;
 }
 
 .advantages-item-road {
@@ -325,7 +398,7 @@ body {
   line-height: 36px;
   text-transform: uppercase;
   color: #000000;
-  }
+}
 
 .page-footer-subtitle {
   font-style: normal;
