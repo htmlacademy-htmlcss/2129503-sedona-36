@@ -274,6 +274,15 @@ body {
   display: flex;
 }
 
+.advantages-location-road-tourist-1 {
+display: flex;
+justify-content: center;
+}
+
+.advantages-location-road-tourist {
+justify-content: center;
+}
+
 .advantages-title-city-sedona {
   font-size: 24px;
   line-height: 28px;
@@ -283,6 +292,7 @@ body {
   margin: 0;
   padding: 103px 85px;
   display: flex;
+  text-align: center;
 }
 
 .advantages-description-city-sedona {
@@ -591,6 +601,7 @@ justify-content: space-between;
 
 .newsletter-2 {
   background-color: #FFFFFF;
+
 }
 
 .page-footer-title {
@@ -609,11 +620,18 @@ justify-content: space-between;
 }
 
 .page-footer-title-2 {
+  width: 404px;
+  margin: 0 auto 29px;
+  padding: 0;
+}
+
+.page-footer-title-2 {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
   color: #000000;
+  text-align: center;
 }
 
 .page-footer-subtitle {
@@ -636,6 +654,14 @@ justify-content: space-between;
   font-size: 22px;
   line-height: 26px;
   color: #333333;
+  text-align: center;
+}
+
+.page-footer-subtitle-2 {
+  width: 475px;
+  margin: 0;
+  padding: 0;
+  margin-left: 363px;
 }
 
 .newsletter-form {
@@ -873,7 +899,21 @@ flex-direction:column;
 .pagination {
 width: 1060px;
 margin: 0;
-display: flex;
+display: flex
+}
+
+.pagination-link-first {
+width: 60px;
+height: 60px;
+color: #000000;
+background-color: #F2F2F2;
+margin-left: 70px;
+text-align: center;
+font-weight: 700;
+font-size: 20px;
+line-height: 36px;
+text-decoration: none;
+margin-right: 8px;
 }
 
 .pagination-link {
@@ -887,4 +927,6 @@ display: flex;
   height: 60px;
   margin: 0;
   padding: 0;
+  text-align: center;
+  margin-right: 8px;
 }
