@@ -308,8 +308,12 @@ justify-content: center;
 }
 
 .advantages-location-road-tourist {
-  justify-content: space-between;
+  text-align: center;
+}
+
+.advantages-location-road-tourist-1 {
   display: flex;
+  justify-content: center;
 }
 
 .advantages-title-location {
@@ -319,25 +323,25 @@ justify-content: center;
   color:#000000;
   text-align: center;
   text-transform: uppercase;
+  margin: 0;
+  padding: 0;
 }
 
 .advantages-description-location {
   font-size: 18px;
   line-height: 21px;
   font-weight: 400;
-  color:#000000;
+  color:#333333
   text-align: center;
-  align-self: stretch;
+  margin: 0;
+  padding: 0;
 }
 
 .advantages-item-location {
   background-color: rgba(131, 179, 211, 0.12);
   width: 400px;
-  height: 385;
+  height: 385px;
   justify-content: space-between;
-  display: flex;
-  margin: 0;
-  padding: 103px 85px;
 }
 
 .advantages-title-road {
@@ -347,6 +351,9 @@ justify-content: center;
   color:#000000;
   text-align: center;
   text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 .dvantages-description-road {
@@ -355,16 +362,15 @@ justify-content: center;
   font-weight: 400;
   color:#333333;
   text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 .advantages-item-road {
   background-color: rgba(131, 179, 211, 0.2);
   width: 400px;
   height: 385;
-  justify-content: space-between;
-  display: flex;
-  margin: 0;
-  padding: 103px 85px;
 }
 
 .advantages-title-tourist {
@@ -374,6 +380,8 @@ justify-content: center;
   color:#000000;
   text-align: center;
   text-transform: uppercase;
+  margin: 0;
+  padding: 0;
 }
 
 .advantages-description-tourist {
@@ -382,16 +390,14 @@ justify-content: center;
   font-weight: 400;
   color:#333333;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .advantages-item-tourist {
   background-color: rgba(131, 179, 211, 0.12);
   width: 400px;
   height: 385;
-  justify-content: space-between;
-  display: flex;
-  margin: 0;
-  padding: 103px 85px;
 }
 
 .advantages-item-bridge {
@@ -473,10 +479,9 @@ justify-content: space-between;
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
-  margin: 104px 0 29px 0;
+  margin: 0;
   padding: 0;
-  width: 230x;
-  height:28px;
+  width: 230px;
 }
 
 .advantages-description-housing {
@@ -487,9 +492,9 @@ justify-content: space-between;
   text-align: center;
   color: #333333;
   margin: 0;
-  padding: 0 30px;
-  width: 230;
-  height:63px;
+  padding: 0;
+  width: 230px;
+
 }
 
 .advantages-item-food {
@@ -507,10 +512,10 @@ justify-content: space-between;
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
-  margin: 104px 0 29px 0;
+  margin: 0;
   padding: 0;
-  width: 230x;
-  height:28px;
+  width: 230px;
+
 }
 
 .advantages-description-food {
@@ -522,8 +527,7 @@ justify-content: space-between;
   color: #333333;
   margin: 0;
   padding: 0;
-  width: 230x;
-  height:63px;
+  width: 230px;
 }
 
 .advantages-item-souvenir {
@@ -541,10 +545,9 @@ justify-content: space-between;
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
-  margin: 104px 0 29px 0;
+  margin: 0;
   padding: 0;
-  width: 230x;
-  height:28px;
+  width: 230px;
 }
 
 .advantages-description-souvenir {
@@ -556,8 +559,7 @@ justify-content: space-between;
   color: #333333;
   margin: 0;
   padding: 0;
-  width: 230x;
-  height:63px;
+  width: 230px;
 }
 
 .question-title {
@@ -639,6 +641,7 @@ justify-content: space-between;
   margin: 0;
   padding: 0;
   margin-left: 363px;
+  text-align: center;
 }
 
 .page-footer-subtitle {
