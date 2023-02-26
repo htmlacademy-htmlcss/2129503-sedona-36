@@ -167,12 +167,20 @@ body {
 .page-header {
   color: #000000;
   background-color: #FFFFFF;
+  width: 1200px;
+  margin: auto;
+}
+
+.header-container {
+width: 1200px;
+margin: auto;
 }
 
 .navigation {
   display: flex;
   width: 1060px;
   margin: 0 auto;
+  padding: 0px 70px;
 }
 
 .page-header-logo {
@@ -185,11 +193,13 @@ body {
   width: 314;
   padding: 0;
   margin: 0;
+  list-style-type: none;
 }
 
 .nav-user {
   max-width: 306px;
   margin-left: auto;
+  list-style-type: none;
 }
 
 .nav-link {
@@ -269,18 +279,14 @@ body {
 /* Title */
 .advantages-item-city-sedona {
   background-color: #82B3D3;
-  width: 400px;
+  width: 100%;
   height: 385px;
   display: flex;
 }
 
-.advantages-location-road-tourist-1 {
-display: flex;
-justify-content: center;
-}
-
 .advantages-location-road-tourist {
 justify-content: center;
+list-style-type: none;
 }
 
 .advantages-title-city-sedona {
@@ -308,12 +314,9 @@ justify-content: center;
 }
 
 .advantages-location-road-tourist {
-  text-align: center;
-}
-
-.advantages-location-road-tourist-1 {
-  display: flex;
-  justify-content: center;
+ margin: 0;
+ padding: 0;
+ display: flex;
 }
 
 .advantages-title-location {
@@ -341,7 +344,6 @@ justify-content: center;
   background-color: rgba(131, 179, 211, 0.12);
   width: 400px;
   height: 385px;
-  justify-content: space-between;
 }
 
 .advantages-title-road {
@@ -370,7 +372,7 @@ justify-content: center;
 .advantages-item-road {
   background-color: rgba(131, 179, 211, 0.2);
   width: 400px;
-  height: 385;
+  height: 385px;
 }
 
 .advantages-title-tourist {
@@ -397,7 +399,7 @@ justify-content: center;
 .advantages-item-tourist {
   background-color: rgba(131, 179, 211, 0.12);
   width: 400px;
-  height: 385;
+  height: 385px;
 }
 
 .advantages-item-bridge {
@@ -411,11 +413,11 @@ justify-content: center;
   line-height: 28px;
   text-transform: uppercase;
   color: #FFFFFF;
-  width: 175px;
+  width: 100%;
   height: 56px;
   margin: 0;
   padding: 0;
-  display: flex;
+  text-align: center;
 }
 
 .advantages-description-bridge {
@@ -423,17 +425,21 @@ justify-content: center;
   font-size: 18px;
   line-height: 21px;
   color: #FFFFFF;
-  width: 230px;
+  width: 100%;
   height: 63px;
   margin: 0;
   padding: 0;
-  display: flex;
+  text-align: center;
 }
 
 .advantages-header-bridge {
   background-color: #82B3D3;
-  width: 400px;
+  width: 100%;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 102px 85px;
+  gap: 30px;
 }
 
 .advantage-title-2 {
@@ -460,8 +466,10 @@ justify-content: center;
 }
 
 .advantages-list-service {
+margin: 0;
+padding: 0;
 display: flex;
-justify-content: space-between;
+list-style-type: none;
 }
 
 .advantages-item-housing {
@@ -703,6 +711,7 @@ justify-content: space-between;
 .footer-social-list {
 width: 142px;
 margin-left: 70px;
+list-style-type: none;
 }
 
 .contacts {
