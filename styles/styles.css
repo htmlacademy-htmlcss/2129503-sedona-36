@@ -92,8 +92,6 @@ body {
   border: none;
   width: 191px;
   height: 36px;
-  margin-left: 70px;
-
 }
 
 .button-reset {
@@ -108,11 +106,13 @@ body {
   border: none;
   width: 191px;
   height: 36px;
-  margin-left: 70px;
+  margin: 40px;
 }
 
-.button-submit-reset {
-  flex-direction: column-reverse;
+.button-wrapper {
+  flex-direction: column;
+  margin-left: auto;
+  text-align: center;
 }
 
 /* Light */
@@ -168,18 +168,6 @@ body {
 }
 /* Pages */
 
-.page-header {
-  color: #000000;
-  background-color: #FFFFFF;
-  width: 1200px;
-  margin: auto;
-}
-
-.header-container {
-width: 1200px;
-margin: auto;
-}
-
 .navigation {
   display: flex;
   width: 1060px;
@@ -224,31 +212,15 @@ margin: auto;
   background-repeat: no-repeat;
 }
 
-.main-container {
-  flex-grow: 1;
-}
-
-.main-index {
-  color: #000000;
-  background-color: #FFFFFF;
-}
-
-.main-inner {
-  background-color: #FFFFFF;
-}
-
-.page-container {
-  width: 1200px;
-  margin: 0 auto;
+.container {
+width: 1200px;
+margin: 0 auto;
+background-color: #FFFFFF;
 }
 
 .hero-img {
   width: 1200px;
   margin: 0 auto;
-}
-
-.page-footer {
-  background-color: #FFFFFF;
 }
 
 .advantage-title {
@@ -286,7 +258,6 @@ margin: auto;
 .advantages-item-city-sedona {
   background-color: #82B3D3;
   width: 100%;
-  height: 385px;
   display: flex;
 }
 
@@ -714,18 +685,6 @@ list-style-type: none;
   border: none;
 }
 
-.main-container {
-  display: flex;
-  width: 1200px;
-  margin: 0 auto;
-}
-
-.page-footer-container {
-  display: flex;
-  width: 1200px;
-  margin: 0 auto;
-}
-
 .footer-social-list {
 width: 142px;
 margin-left: 70px;
@@ -794,12 +753,9 @@ margin-left: 70px;
   color: #FFFFFF;
 }
 
-.catalog-filter-group-1 {
-width: 151px;
-padding: 0;
-margin-left: 70px;
+.filter {
+padding: 0px 70px;
 display: flex;
-
 }
 
 .catalog-filter-group {
@@ -852,6 +808,7 @@ display: flex;
   font-size: 18px;
   line-height: 23px;
   color: #FFFFFF;
+  list-style-type: none;
 }
 
 .hotel-card-title {
@@ -881,18 +838,16 @@ list-style: none;
 display: flex;
 flex-wrap: wrap;
 width: 1200px;
-height: 1235px;
+column-gap: 60px;
+
 }
 
 .hotel-card {
 width: 340px;
-height: 438px;
 margin: 0;
 padding: 0;
-text-align: left;
-vertical-align: top;
 display: flex
-flex-direction:column;
+flex-direction: column;
 }
 
 .title-card-hotel {
@@ -964,6 +919,10 @@ margin-right: 8px;
   margin-right: 8px;
 }
 
+.page-footer-container {
+display: flex;
+margin: 0 auto;
+}
   .visually-hidden {
     position: fixed;
     transform: scale(0);
