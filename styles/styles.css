@@ -170,9 +170,7 @@ body {
 
 .navigation {
   display: flex;
-  width: 1060px;
-  margin: 0 auto;
-  padding: 0px 70px;
+  column-gap: 44px;
 }
 
 .page-header-logo {
@@ -181,17 +179,27 @@ body {
   margin left: 70px;
 }
 
+.logo {
+display: block;
+margin: -6px;
+position: relative;
+}
+
 .nav-list {
-  width: 314;
+  width: 314px;
   padding: 0;
   margin: 0;
   list-style-type: none;
+  display: flex;
+  column-gap: 32px;
 }
 
 .nav-user {
   max-width: 306px;
-  margin-left: auto;
+  margin: 0 0 0 auto;
   list-style-type: none;
+  display: flex;
+  column-gap: 33px;
 }
 
 .nav-link {
@@ -210,12 +218,19 @@ body {
   background-image: url("../images/index/index-background.jpg");
   background-size: 1200px 485px;
   background-repeat: no-repeat;
+  box-shadow: inset;
 }
 
 .container {
 width: 1200px;
 margin: 0 auto;
 background-color: #FFFFFF;
+box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.header {
+padding-left: 70px;
+padding-right: 70px;
 }
 
 .hero-img {
@@ -490,7 +505,6 @@ list-style-type: none;
   margin: 0;
   padding: 0;
   width: 230px;
-
 }
 
 .advantages-item-food {
@@ -720,6 +734,13 @@ list-style-type: none;
   background-repeat: no-repeat;
 }
 
+.filters-search {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 35px 70px 70px;
+}
+
 .inner-title {
   font-size: 60px;
   line-height: 78px;
@@ -729,13 +750,6 @@ list-style-type: none;
 /* Breadcrumbs */
 .breadcrumbs {
   color: #FFFFFF;
-}
-
-.breadcrumbs-1 {
-width: 1060px;
-margin: 0;
-padding: 0;
-margin-left: 70px;
 }
 
 /* Link */
@@ -751,29 +765,6 @@ margin-left: 70px;
   line-height: 24px;
   font-weight: 700;
   color: #FFFFFF;
-}
-
-.filter {
-padding: 0px 70px;
-display: flex;
-}
-
-.catalog-filter-group {
-border: 0 none;
-margin: 0;
-margin-right: 70px;
-padding: 0;
-display: flex;
-flex-wrap: wrap;
-}
-
-.catalog-filter-price {
-width: 288px;
-margin-left: 141px;
-display: flex;
-padding: 0;
-margin: 0;
-border: none;
 }
 
 .control-input-min {
@@ -923,7 +914,8 @@ margin-right: 8px;
 display: flex;
 margin: 0 auto;
 }
-  .visually-hidden {
-    position: fixed;
-    transform: scale(0);
+
+.visually-hidden {
+position: fixed;
+transform: scale(0);
 }
