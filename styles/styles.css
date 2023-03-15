@@ -49,6 +49,7 @@ body {
   width: 160px;
   margin: 0;
   padding: 8px 34px;
+  display: block;
 }
 
 .button-search {
@@ -176,7 +177,7 @@ body {
 .page-header-logo {
   width: 140px;
   padding: 0;
-  margin left: 70px;
+  margin-left: 20px;
 }
 
 .logo {
@@ -212,6 +213,15 @@ position: relative;
   text-decoration: none;
 }
 
+.nav-link-search {
+width: 44px;
+height: 64px;
+display: block;
+background-image: url("../images/icons_header/search.svg");
+background-position: center;
+background-repeat: no-repeat;
+}
+
 .hero {
   color: #000000;
   background-color: #FFFFFF;
@@ -225,7 +235,7 @@ position: relative;
 width: 1200px;
 margin: 0 auto;
 background-color: #FFFFFF;
-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+box-shadow: 0px 15px 15px rgba(0, 0, 0, 0.2);
 }
 
 .header {
@@ -728,16 +738,10 @@ list-style-type: none;
 
 .filters-search {
   color: #000000;
-  background-color: #FFFFFF;
+  background-color:#00ffff;
   background-image: url("../images/catalog/filter.jpg");
-  background-size: 1200px 412px;
+  background-size: cover;
   background-repeat: no-repeat;
-}
-
-.filters-search {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   padding: 35px 70px 70px;
 }
 
@@ -745,6 +749,14 @@ list-style-type: none;
   font-size: 60px;
   line-height: 78px;
   color: #FFFFFF;
+}
+
+.filter {
+display: flex;
+}
+
+.catalog-filter-group {
+border: none;
 }
 
 /* Breadcrumbs */
@@ -837,7 +849,7 @@ column-gap: 60px;
 width: 340px;
 margin: 0;
 padding: 0;
-display: flex
+display: flex;
 flex-direction: column;
 }
 
