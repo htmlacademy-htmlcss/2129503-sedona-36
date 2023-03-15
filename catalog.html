@@ -6,9 +6,9 @@
     <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
-    <header class="page-header">
+    <header class="container header">
       <nav class="navigation">
-        <a href="index.html" aria-current="page">
+        <a class="page-header-logo" href="index.html" aria-current="page">
           <img class="logo" src="images/logo/logo.svg" width="140" height="70" alt="Логотип сайта городка Седона.">
         </a>
         <ul class="nav-list">
@@ -24,7 +24,7 @@
         </ul>
         <ul class="nav-user">
           <li class="nav-item">
-            <a class="nav-link" href="#">
+            <a class="nav-link nav-link-search" href="#">
               <span class="visually-hidden">Поиск</span>
             </a>
           </li>
@@ -39,8 +39,8 @@
         </ul>
       </nav>
     </header>
-    <main class="main-inner">
-      <section class="filters-search">
+    <main class="container main-container">
+      <div class="filters-search">
         <h1 class="inner-title">Гостиницы Седоны</h1>
         <ul class="breadcrumbs">
           <li class="breadcrumbs-item">
@@ -50,7 +50,7 @@
             <a class="breadcrumbs-link" href="catalog.html"><span class="visually-hidden">Каталог</span></a>
           </li>
         </ul>
-        <form action="https://echo.htmlacademy.ru/" method="get">
+        <form class="filter" action="https://echo.htmlacademy.ru/" method="get">
           <fieldset class="catalog-filter-group">
             <legend class="catalog-filter-title">Инфраструктура:</legend>
             <ul class="catalog-filter-list">
@@ -91,16 +91,17 @@
               </li>
             </ul>
           </fieldset>
-          <fieldset>
+          <fieldset class="catalog-filter-price">
             <legend class="catalog-filter-title">Стоимость,<span>₽</span>:</legend>
             <label>от<input class="control-input-min" type="number" name="min-price" value="0"></label>
             <label>до<input class="control-input-max" type="number" name="max-price" value="9000"></label>
           </fieldset>
+          <div class="button-wrapper">
           <button class="button-submit" type="submit">Применить</button>
           <button class="button-reset" type="reset">Сбросить</button>
+        </div>
         </form>
-      </section>
-      <section>
+        </div>
         <div class="sorting-container">
         <h2 class="hotel-card-title">Найдено гостиниц:38</h2>
         <select class="select-control" aria-label="Сортировка">
@@ -108,13 +109,13 @@
           <option value="popular">Сначала популярные</option>
           <option value="expensive">Сначала дорогие</option>
         </select>
-        <a class="button button-light" href="#">
+        <a class="button-light" href="#">
           <span class="visually-hidden">Показать карточки</span>
         </a>
-        <a class="button" href="#">
+        <a class="button-light" href="#">
           <span class="visually-hidden">Показать целиком</span>
         </a>
-        <a class="button" href="#">
+        <a class="button-light" href="#">
           <span class="visually-hidden">Показать списком</span>
         </a>
         </div>
@@ -172,28 +173,15 @@
             <p class="hotel-rating">Рейтинг: 5,0</p>
           </li>
         </ul>
-        <ul class="pagination">
-          <li class="pagination-item">
-            <a class="pagination-link" aria-current="page" href="#">1</a>
-          </li>
-          <li class="pagination-item">
+        <div class="pagination">
+            <a class="pagination-link-first" aria-current="page" href="#">1</a>
             <a class="pagination-link" aria-current="page" href="#">2</a>
-          </li>
-          <li class="pagination-item">
             <a class="pagination-link" aria-current="page" href="#">3</a>
-          </li>
-          <li class="pagination-item">
             <a class="pagination-link" aria-current="page" href="#">4</a>
-          </li>
-          <li>
             <a class="pagination-button" aria-current="page" href="#">
               <span class="vissualy-hidden">Показать еще</span></a>
-          </li>
-          <li class="pagination-item">
             <a class="pagination-link" aria-current="page" href="#">10</a>
-          </li>
-        </ul>
-      </section>
+          </div>
       <section class="newsletter-2">
         <h2 class="page-footer-title-2">Подпишитесь на рассылку</h2>
         <p class="page-footer-subtitle-2">Только полезная информация и никакого спама, честное бойскаутское!</p>
@@ -205,7 +193,8 @@
         </form>
       </section>
     </main>
-    <footer class="page-footer">
+    <footer class="container page-footer">
+      <div class="page-footer-container">
       <ul class="footer-social-list">
         <li class="footer-social-item">
           <a class="link-vkontakte" href="https://vk.com/htmlacademy">
@@ -225,13 +214,14 @@
       </ul>
       <section class="contacts">
         <h2 class="visually-hidden"><span>Контакты</span></h2>
-      <a class="contacts-phone" href="tel:+78128121212">+7 812 812-12-12</a>
+        <a class="contacts-phone" href="tel:+78128121212">+7 812 812-12-12</a>
       </section>
       <section class="about-text">
-      <h2 class="visually-hidden"><span>Сайт разработчика</span></h2>
-      <a class="link-htmlacademy" href="https://htmlacademy.ru/">
-      <img class="logo-htmlacademy" src="images/logo-footer/html_academy.svg" alt="Логотип html academy."></a>
+        <h2 class="visually-hidden"><span>Сайт разработчика</span></h2>
+        <a class="link-htmlacademy" href="https://htmlacademy.ru/">
+          <img class="logo-htmlacademy" src="images/logo-footer/html_academy.svg" alt="Логотип html academy."></a>
       </section>
+      </div>
     </footer>
   </body>
 </html>
